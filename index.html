@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideTag – Smart Ride Tagging App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>RideTag</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Tag Your Ride, Find Your Bike</h2>
+                    <p>RideTag is a simple mobile application that helps you keep track of where you parked your bike or scooter. Pin your location, tag your ride and come back later without losing time.</p>
+                    <a href="#features" class="cta-button">Learn More</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero.png" alt="RideTag illustration">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="alt">
+            <div class="container">
+                <h3>About RideTag</h3>
+                <p>RideTag is designed for cyclists and micro‑mobility users who want a quick way to remember where they left their ride. By using your device’s GPS, RideTag marks your location and stores it securely on your phone. No account or sign‑up is required.</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h3>Key Features</h3>
+                <div class="feature-list">
+                    <div class="feature">
+                        <h4>Quick Tagging</h4>
+                        <p>With a single tap you can save your current location as a ride tag. Your tags remain on your device until you remove them.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Easy Navigation</h4>
+                        <p>When it’s time to return, RideTag provides step‑by‑step directions back to your tagged location.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Offline Friendly</h4>
+                        <p>Your tags are stored locally, so you can still access them even when you have no network connection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="alt">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>If you have questions or feedback about RideTag, please get in touch via <a href="mailto:support@ridetag.online">support@ridetag.online</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> RideTag. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update the year in the footer automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
